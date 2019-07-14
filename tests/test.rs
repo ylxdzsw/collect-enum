@@ -3,10 +3,11 @@ extern crate collect_enum;
 
 #[collect_enum(Foo)]
 fn foo() -> Foo {
-    Foo::Fuck
+    Foo::A;
+    Foo::B
 }
 
 #[test]
-fn it_sucks() {
-    println!("{:?}", Foo::Fuck)
+fn it_works() {
+    assert!(foo() == Foo::B)
 }
