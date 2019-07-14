@@ -1,6 +1,8 @@
 collect_enum
 ============
 
+[![Build Status](https://travis-ci.org/ylxdzsw/collect_enum.svg?branch=master)](https://travis-ci.org/ylxdzsw/collect_enum)
+
 A procedual macro that defines `enum`s with variants collected from thier usages in a scope. Mainly designed for generating
 ad-hoc error types and small state machines.
 
