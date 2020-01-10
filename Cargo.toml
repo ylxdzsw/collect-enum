@@ -1,5 +1,5 @@
 [package]
-name = "collect_enum"
+name = "collect-enum"
 version = "0.1.0"
 authors = ["ylxdzsw <ylxdzsw@gmail.com>"]
 edition = "2018"
